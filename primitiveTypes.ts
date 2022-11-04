@@ -24,4 +24,7 @@ const number2 = 2.6;
 const resultPhrase = "Result is: ";
 const printResult = true;
 
+const someType:any = true;
+let someOtherType:undefined;
+
 const result = add(number1, number2, resultPhrase, printResult);
