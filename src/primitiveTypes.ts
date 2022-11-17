@@ -1,6 +1,6 @@
 console.log("Welcome to TS!!");
 
-function add(n1: number, n2: number, resultPhrase: string, printResult:boolean){
+function addPT(n1: number, n2: number, resultPhrase: string, printResult:boolean){
     //java script way of validation which can be avoided by using ts
     /* if(typeof n1 !== "number" || typeof n2 !== "number"){
         throw new Error("Incorrect Input!");
@@ -22,9 +22,9 @@ num2 = 6;
 const number1 = 5;
 const number2 = 2.6;
 const resultPhrase = "Result is: ";
-const printResult = true;
+const printResultPT = true;
 
 const someType:any = true;
 let someOtherType:undefined;
 
-const result = add(number1, number2, resultPhrase, printResult);
+const result = addPT(number1, number2, resultPhrase, printResultPT);
